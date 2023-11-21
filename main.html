@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+<script src="https://kit.fontawesome.com/e493db4b93.js" crossorigin="anonymous"></script>
+<body>
+<div class="central_div">
+<div class="up_div">
+    <div class="left_div">
+        <div class="date">
+        <span class="text" id="date">Wednesday, 22 Nov</span>
+        </div>
+        <div class="number_tasks">
+            <span class="quanity text" id="f">1 tasks</span>
+        </div>
+    </div>
+    <div class="right_div">
+        <div class="button">
+            <a href="#" id="open_pop_up"><img src="icon/plus.png" height="140%" width="140%"/></a>
+        </div>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+                    <p>Создайте задание</p>
+                        <form action="">
+                            <input type="text" id="userInput" placeholder="Задание">
+                            <button onclick="onClickButton(),quanity()">Добавить задание</button>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="botton_div">
+    <div class="copyTasks tasks" id="copyTasks">
+        <div class="check">
+            <input type="checkbox" id="checkbox">
+                <i class="fa-solid fa-check" style="color: #5c76e4;"></i>
+        </div>
+        <div class="tasks_text">
+        <div class="div_text" id="copyText">
+            <span class="text">task nfsefesesfum 1</span>
+        </div>
+            <div class="time_div">
+                <span class="time">22:32am</span>
+            </div>
+            <div class="trash">
+                <i class="fa-solid fa-trash" onclick="onClickButtonDelit()"></i>
+            </div>
+        </div>
+
+    </div >
+
+</div>
+</div>
+<script src="open%20popup.js"></script>
+<script src="user input.js"></script>
+<script src="delit tasks.js"></script>
+<script src="date.js"></script>
+<script src="quantity tasks.js"></script>
+
+</body>
+</html>
